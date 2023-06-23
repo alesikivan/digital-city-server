@@ -28,7 +28,7 @@ const maps = [
   { 
     id: 3, 
     name: 'Czech Highway Weekly Traffic', 
-    description: 'Highway heatmap based on the total number of traffic in both directions from January 18th to January 25th 2022.',
+    description: 'Highway load heatmap based on the total volume of traffic in both directions per toll booth from January 18th to January 25th 2022.',
     urlKeyword: 'czech-highway-weekly-traffic',
     filename: 'czech-highway-weekly-traffic.json'
   },
