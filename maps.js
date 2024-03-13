@@ -39,6 +39,20 @@ const maps = [
     urlKeyword: 'czech-highway-load-clusters',
     filename: 'czech-highway-load-clusters.json'
   },
+  { 
+    id: 5, 
+    name: 'Healthcare communities 2021', 
+    description: 'Communities of districts in the network of 2021 Healthcare visits.',
+    urlKeyword: 'рealthcare-communities-2021',
+    filename: 'Healthcare_communities_2021.json'
+  },
+  { 
+    id: 6, 
+    name: 'Healthcare communities 2022', 
+    description: 'Communities of districts in the network of 2022 Healthcare visits.',
+    urlKeyword: 'рealthcare-communities-2022',
+    filename: 'Healthcare_communities_2022.json'
+  },
 ]
 
 app.get('/get-maps', (req, res) => {
